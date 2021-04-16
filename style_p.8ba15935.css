@@ -1,0 +1,330 @@
+/* COMMON */
+* {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  box-sizing: border-box;
+}
+html {
+  font-family: "Noto Sans KR", sans-serif;
+  font-size: 14px;
+}
+body {
+  overflow-x: hidden;
+  color: rgb(29, 29, 31);
+  letter-spacing: -0.05em;
+  background: #f3f3f3;
+  height: 100vh;
+}
+p {
+  line-height: 1.8;
+}
+a {
+  color: #333;
+  text-decoration: none;
+}
+
+
+/* HEADER */
+.local-nav {
+  height: 52px;
+  border-bottom: 1px solid #ddd;
+  padding: 0 1rem;
+  background-color: #fff;
+}
+.local-nav-links {
+  display: flex;
+  align-items: center;
+  max-width: 1000px;
+  height: 100%;
+  margin: 0 auto;
+}
+.local-nav-links .iohmk-title {
+  margin-right: auto;
+  vertical-align: middle;
+  padding-top: 5px;
+}
+.local-nav-links a:not(.iohmk-title) {
+  margin-left: 2em;
+}
+.local-nav-links a {
+  font-size: 1rem;
+  letter-spacing: 0.1rem;
+}
+.local-nav-links a:hover {
+  color: #277045;
+}
+
+/* SECTION - TITLE */
+.section-title {
+  background-color: #277045;
+}
+.section-title > h2 {
+  display: none;
+}
+.text-area {
+  max-width: 1000px;
+  margin: 0 auto;
+  text-align: center;
+  padding: 200px 0 200px 0;
+  color: #fff;
+  font-size: 1.4rem;
+  font-weight: 900;
+}
+.fixed {
+  display: block;
+  position: fixed;
+  margin: 0 auto;
+  left: 0;
+  right: 0;
+  top: 100px;
+  width: 800px;
+  height: 40px;
+  background-color: #f3f3f3;
+  font-weight: 900;
+  text-align: center;
+  font-size: 1.2rem;
+  border-radius: 200px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+.fixed a {
+  color: #277045;
+  margin-left: 60px;
+  line-height: 40px;
+}
+.fixed a:first-child {
+  margin-left: 0px;
+}
+.fixed a:hover {
+  color: #333;
+}
+
+/* SECTION - PROJECTS */
+#project1 {
+  background-color: #fff;
+}
+#project2 {
+  background-color: #333333;
+}
+#project3 {
+  background-color: #d1920b;
+}
+#project4 {
+  background-color: #fff;
+}
+#project5 {
+  background-color: #094fa4;
+}
+
+/* PROJECT1 - 행성 */
+.project1 {
+  width: 1000px;
+  margin: 0 auto;
+}
+.project1 > img {
+  margin-left: 25px;
+  margin-bottom: -4px;
+}
+.project1 > h3 {
+  margin: 100px 0px 10px 25px;
+  font-size: 2rem;
+  color: #08b681;
+}
+.project1 > p {
+  margin: 0px 0px 100px 25px;
+  color: #333;
+  width: 25vw;
+  font-weight: 400;
+}
+.project1 > a {
+  display: block;
+  margin: 100px auto;
+  text-align: center;
+  width: 200px;
+  height: 50px;
+  border-radius: 200px;
+  background-color: #fff;
+  font-size: 1.5rem;
+  font-weight: 900;
+  letter-spacing: -1px;
+  line-height: 50px;
+}
+.project1 > a:hover {
+  background-color: #08b681;
+  color: #fff;
+}
+
+/* PROJECT2 - SMVIEW */
+.project2 {
+  width: 1000px;
+  margin: 0 auto;
+}
+.project2 > img {
+  margin-left: 25px;
+  margin-bottom: -4px;
+}
+.project2 > iframe {
+  margin-left: 25px;
+}
+.project2 > h3 {
+  margin: 100px 0px 10px 25px;
+  font-size: 2rem;
+  color: #f7c1c7;
+}
+.project2 > p {
+  margin: 0px 0px 100px 25px;
+  color: #fff;
+  width: 25vw;
+  font-weight: 100;
+}
+.project2 > a {
+  display: block;
+  margin: 100px auto;
+  text-align: center;
+  width: 200px;
+  height: 50px;
+  border-radius: 200px;
+  background-color: #f7c1c7;
+  color: #fff;
+  font-size: 1.5rem;
+  font-weight: 900;
+  letter-spacing: -1px;
+  line-height: 50px;
+}
+.project2 > a:hover {
+  background-color: #fff;
+  color: #f7c1c7;
+}
+.project2 > iframe {
+  border: 0;
+}
+
+/* PROJECT3 - A Star is Born */
+.project3 {
+  width: 1000px;
+  margin: 0 auto;
+}
+.project3 > img {
+  margin-left: 25px;
+  margin-bottom: -4px;
+}
+.project3 > h3 {
+  margin: 100px 0px 10px 25px;
+  font-size: 2rem;
+  color: #333;
+}
+.project3 > p {
+  margin: 0px 0px 100px 25px;
+  color: #fff;
+  width: 25vw;
+  font-weight: lighter;
+}
+.project3 > a {
+  display: block;
+  margin: 100px auto;
+  text-align: center;
+  width: 200px;
+  height: 50px;
+  border-radius: 200px;
+  background-color: #333;
+  color: #fff;
+  font-size: 1.5rem;
+  font-weight: 900;
+  letter-spacing: -1px;
+  line-height: 50px;
+}
+.project3 > a:hover {
+  background-color: #fff;
+  color: #d1920b;
+}
+
+/* PROJECT4 - World Cup Champion's Passport */
+.project4 {
+  width: 1000px;
+  margin: 0 auto;
+}
+.project4 > img {
+  margin-left: 25px;
+  margin-bottom: -4px;
+}
+.project4 > h3 {
+  margin: 100px 0px 10px 25px;
+  font-size: 2rem;
+  color: #e6b326;
+}
+.project4 > p {
+  margin: 0px 0px 100px 25px;
+  color: #333;
+  width: 25vw;
+  font-weight: 400;
+}
+.project4 > h6 {
+  display: block;
+  text-indent: -9999px;
+  margin: 100px auto;
+  text-align: center;
+  width: 200px;
+  height: 50px;
+  border-radius: 200px;
+  color: #fff;
+  font-size: 1.5rem;
+  font-weight: 900;
+  letter-spacing: -1px;
+  line-height: 50px;
+}
+
+/* PROJECT5 - KFA Store Website-Renewal */
+.project5 {
+  width: 1000px;
+  margin: 0 auto;
+}
+.project5 > img {
+  margin-left: 25px;
+  margin-bottom: -4px;
+}
+.project5 > h3 {
+  margin: 100px 0px 10px 25px;
+  font-size: 2rem;
+  color: #ec2232;
+}
+.project5 > p {
+  margin: 0px 0px 100px 25px;
+  color: #fff;
+  width: 25vw;
+  font-weight: 100;
+}
+.project5 > h6 {
+  display: block;
+  text-indent: -9999px;
+  margin: 100px auto;
+  text-align: center;
+  width: 200px;
+  height: 50px;
+  border-radius: 200px;
+  color: #fff;
+  font-size: 1.5rem;
+  font-weight: 900;
+  letter-spacing: -1px;
+  line-height: 50px;
+}
+
+/* FOOTER */
+.footer {
+  display: block;
+  padding-top: 30px;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: #277045;
+  font-weight: bold;
+  height: 80px;
+  background-color: #fff;
+  letter-spacing: 0.1rem;
+}
+.footer span {
+  font-weight: 100;
+  letter-spacing: 0rem;
+}
+
+
+/*# sourceMappingURL=style_p.8ba15935.css.map */
